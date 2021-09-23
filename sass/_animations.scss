@@ -1,0 +1,59 @@
+@keyframes fade {
+  0% {
+    transform: translateX(+1500px);
+  }
+  15% {
+    transform: translateX(0px);
+  }
+  85% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-1500px);
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+@keyframes switchGridFirst {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes switchGridSecond {
+  0% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

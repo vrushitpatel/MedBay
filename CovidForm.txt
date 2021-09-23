@@ -1,0 +1,10 @@
+CREATE TABLE CovidForm (
+    Name varchar(400) NOT NULL,
+    Email varchar(255) NOT NULL,
+    Phone BIGINT(10) NOT NULL,
+    City varchar(255) NOT NULL,
+    Remark varchar(400) NOT NULL
+);
+
+INSERT INTO covidform (Name, Email, Phone, City, Remark)
+VALUES ('Raj Shah', 'raj12@gmail.com', 8675421548, 'Mumbai', 'Have some sickness and body ache!');

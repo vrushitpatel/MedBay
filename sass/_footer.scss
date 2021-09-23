@@ -1,0 +1,129 @@
+footer {
+  background-color: $blue;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: grid;
+  height: 600px;
+  padding-top: 100px;
+  grid-template-columns: 285px 205px 320px 305px;
+  grid-template-rows: 380px;
+  justify-content: center;
+  .grido {
+    padding: 0 15px;
+    h2 {
+      color: $h1_black;
+      margin-bottom: 20px;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 1.5;
+    }
+    p {
+      color: #a8d6fc;
+      margin-bottom: 1rem;
+      font-size: 16px;
+      line-height: 1.8;
+      font-weight: 400;
+    }
+    a {
+      text-decoration: none;
+      color: $h1_black;
+    }
+  }
+  .social {
+    a {
+      background-color: #1a83f7;
+      display: inline-block;
+      position: relative;
+      text-align: center;
+      line-height: 70px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin: 5px;
+      transition: all 0.5s ease-in-out;
+      i {
+        color: #a8d6fc;
+        font-size: 26px;
+      }
+      &:hover {
+        i {
+          color: $h1_black;
+        }
+      }
+    }
+  }
+  .two,
+  .three,
+  .four {
+    padding-left: 30px;
+    li {
+      list-style-image: url("../images/arrow\ \(3\).png");
+      margin-bottom: 10px;
+      line-height: 32px;
+      margin-left: 25px;
+      color: #a8d6fc;
+      font-size: 16px;
+      line-height: 1.8;
+      font-weight: 400;
+    }
+    a {
+      position: absolute;
+      font-size: 16px;
+      line-height: 1.8;
+      font-weight: 400;
+      color: #a8d6fc;
+    }
+  }
+  .four {
+    .address {
+      list-style-image: url("../images/home-run.png");
+      margin-bottom: 15px;
+      a {
+        line-height: 25px;
+        width: 280px;
+      }
+    }
+    .phone-no {
+      margin-bottom: 10px;
+      margin-top: 30px;
+      list-style-image: url("../images/phone.png");
+      a {
+        line-height: 25px;
+      }
+    }
+    .whatsapp {
+      margin-bottom: 10px;
+      list-style-image: url("../images/whatsapp.png");
+      a {
+        line-height: 25px;
+      }
+    }
+    .mail {
+      margin-bottom: 10px;
+      list-style-image: url("../images/mail.png");
+      a {
+        line-height: 25px;
+      }
+    }
+  }
+  section {
+    width: 1000px;
+    text-align: center;
+    color: #a8d6fc;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    i {
+      color: red;
+    }
+    a {
+      font-size: 16px;
+      line-height: 1.8;
+      font-weight: 400;
+      color: #030303;
+      text-decoration: none;
+    }
+  }
+}

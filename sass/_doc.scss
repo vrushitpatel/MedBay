@@ -1,0 +1,391 @@
+.doc {
+  width: 100%;
+  .doc_homePage {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f0f4f8;
+    background-image: url("../images/doctor_page.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    .text {
+      padding: 220px 0;
+      margin: 0 auto;
+      width: $base-width;
+    }
+    h1 {
+      font-size: 55px;
+    }
+
+    ul li {
+      list-style-type: none;
+      display: inline-block;
+
+      a {
+        padding-left: 5px;
+        text-decoration: none;
+        color: #828282;
+        cursor: pointer;
+        line-height: 1.8;
+        font-size: 14px;
+        font-weight: 500;
+        span {
+          font-size: 20px;
+          font-weight: 500;
+          position: relative;
+          top: 3px;
+        }
+      }
+
+      .active {
+        padding-left: 0;
+        color: #18a3eb;
+      }
+    }
+  }
+
+  .doctor_about {
+    padding: 100px 0;
+    h2 {
+      margin: 0 auto;
+      margin-bottom: 48px;
+      font-size: 48px;
+      font-weight: 600;
+      color: $blue;
+      width: $base-width;
+      line-height: 1.2;
+      text-align: center;
+    }
+    .content {
+      display: flex;
+      width: $base-width;
+      margin: 0 auto;
+    }
+    p {
+      text-align: justify;
+      width: 570px;
+      padding-right: 15px;
+      padding-left: 15px;
+      color: #404040;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+  }
+
+  .doc-display {
+    background-color: #f8f8f8;
+    padding: 100px 0;
+
+    .doc-grid {
+      form {
+        width: $base-width;
+        margin: 0 auto;
+        padding: 0 50px;
+
+        #searchBar {
+          font-family: "Work Sans", Arial, sans-serif;
+          width: 275px;
+          height: 35px;
+          padding: 5px;
+          line-height: 1.2px;
+          margin-bottom: 25px;
+          outline: none;
+
+          &:focus {
+            box-shadow: 5px 5px 7px 0 rgba(119, 119, 119, 0.3);
+          }
+        }
+
+        button {
+          font-family: "Work Sans", Arial, sans-serif;
+          width: 150px;
+          height: 35px;
+          padding: 5px;
+          line-height: 1.2px;
+          margin-bottom: 25px;
+          outline: none;
+          margin-right: 107px;
+          color: $white;
+          border-radius: 20px;
+          background-color: #128dd2;
+          transition: all 0.5s ease;
+          cursor: pointer;
+          border: none;
+
+          &:hover {
+            background-color: $orange;
+            color: $white;
+          }
+        }
+
+        select {
+          font-family: "Work Sans", Arial, sans-serif;
+          width: 275px;
+          height: 35px;
+          padding: 5px;
+          line-height: 1.2px;
+          cursor: pointer;
+          margin-bottom: 25px;
+          outline: none;
+
+          &:focus {
+            box-shadow: 5px 5px 7px 0 rgba(119, 119, 119, 0.3);
+          }
+        }
+      }
+    }
+  }
+
+  .doc_details {
+    background-color: #f8f8f8;
+
+    .doc_grid {
+      width: 1100px;
+      min-height: 260px;
+      margin: 0 auto;
+      background-color: $white;
+      margin-top: 40px;
+      box-shadow: 1px 1px 3px 0 rgba(119, 119, 119, 0.3);
+      display: grid;
+      padding: 15px;
+      grid-template-columns: 250px 500px 300px;
+      transition: all 0.5s;
+
+      .photo {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 80%;
+          padding: 5px;
+          max-height: 200px;
+          border: 2px solid rgb(211, 211, 211);
+        }
+      }
+
+      &:hover {
+        box-shadow: 10px 10px 5px 0 rgba(119, 119, 119, 0.3);
+      }
+
+      .info {
+        padding-top: 20px;
+        margin-left: 50px;
+        padding-right: 10px;
+
+        h3 {
+          color: #128dd2;
+          margin: 0 0 6px 0;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 1.1;
+        }
+
+        p {
+          line-height: 1.5;
+          color: #373534;
+          font-size: 16px;
+          a {
+            font-family: "Work Sans", Arial, sans-serif;
+            font-weight: 500;
+            text-decoration: underline;
+            color: $green;
+          }
+        }
+
+        span {
+          line-height: 1.5;
+          color: #128dd2;
+          font-size: 16px;
+          font-weight: bold;
+        }
+      }
+
+      .details {
+        padding-top: 20px;
+
+        select {
+          font-family: "Work Sans", Arial, sans-serif;
+          width: 275px;
+          height: 35px;
+          padding: 5px;
+          line-height: 1.2px;
+          cursor: pointer;
+          margin-bottom: 25px;
+          outline: none;
+
+          &:focus {
+            box-shadow: 5px 5px 7px 0 rgba(119, 119, 119, 0.3);
+          }
+        }
+
+        strong {
+          display: block;
+          margin-bottom: 5px;
+        }
+
+        .appointment {
+          width: 230px;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 1.2;
+          cursor: pointer;
+
+          margin: 5px auto !important;
+          background: linear-gradient(270deg, $blue3 0%, $blue 100%);
+
+          color: $white;
+          border-radius: 22px;
+          border: none;
+          padding: 8px 12px 6px !important;
+          margin-bottom: 12px !important;
+          outline: none !important;
+        }
+
+        span {
+          font-weight: 600;
+          font-size: 14px;
+          color: #00ab3b;
+        }
+        span.notAvail {
+          color: #747474 !important;
+        }
+
+        .price_avail {
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: $blue;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: grid;
+  height: 600px;
+  padding-top: 100px;
+  grid-template-columns: 285px 205px 320px 305px;
+  grid-template-rows: 380px;
+  justify-content: center;
+  .grido {
+    padding: 0 15px;
+    h2 {
+      color: $h1_black;
+      margin-bottom: 20px;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 1.5;
+    }
+    p {
+      color: #a8d6fc;
+      margin-bottom: 1rem;
+      font-size: 16px;
+      line-height: 1.8;
+      font-weight: 400;
+    }
+    a {
+      text-decoration: none;
+      color: $h1_black;
+    }
+  }
+  .social {
+    a {
+      background-color: #1a83f7;
+      display: inline-block;
+      position: relative;
+      text-align: center;
+      line-height: 70px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin: 5px;
+      transition: all 0.5s ease-in-out;
+      i {
+        color: #a8d6fc;
+        font-size: 26px;
+      }
+      &:hover {
+        i {
+          color: $h1_black;
+        }
+      }
+    }
+  }
+  .two,
+  .three,
+  .four {
+    padding-left: 30px;
+    li {
+      list-style-image: url("../images/arrow\ \(3\).png");
+      margin-bottom: 10px;
+      line-height: 32px;
+      margin-left: 25px;
+      color: #a8d6fc;
+      font-size: 16px;
+      line-height: 1.8;
+      font-weight: 400;
+    }
+    a {
+      position: absolute;
+      font-size: 16px;
+      line-height: 1.8;
+      font-weight: 400;
+      color: #a8d6fc;
+    }
+  }
+  .four {
+    .address {
+      list-style-image: url("../images/home-run.png");
+      margin-bottom: 15px;
+      a {
+        line-height: 25px;
+        width: 280px;
+      }
+    }
+    .phone-no {
+      margin-bottom: 10px;
+      margin-top: 30px;
+      list-style-image: url("../images/phone.png");
+      a {
+        line-height: 25px;
+      }
+    }
+    .whatsapp {
+      margin-bottom: 10px;
+      list-style-image: url("../images/whatsapp.png");
+      a {
+        line-height: 25px;
+      }
+    }
+    .mail {
+      margin-bottom: 10px;
+      list-style-image: url("../images/mail.png");
+      a {
+        line-height: 25px;
+      }
+    }
+  }
+  section {
+    width: 1000px;
+    text-align: center;
+    color: #a8d6fc;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    i {
+      color: red;
+    }
+    a {
+      font-size: 16px;
+      line-height: 1.8;
+      font-weight: 400;
+      color: #030303;
+      text-decoration: none;
+    }
+  }
+}

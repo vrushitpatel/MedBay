@@ -1,0 +1,39 @@
+CREATE TABLE Blogs (
+    Name varchar(400) NOT NULL,
+    Heading varchar(50) NOT NULL,
+    Content varchar(1000) NOT NULL,
+    Date varchar(15) NOT NULL,
+    Dept varchar(255) NOT NULL,
+    ID int PRIMARY KEY NOT NULL
+);
+
+ALTER TABLE blogs
+DROP PRIMARY KEY; 
+
+
+INSERT INTO blogs (Name, Heading, Content, Date, Dept, ID)
+VALUES ('Dr. Ashitesh Ajit Kumar', 'Avoid harmful use of alcohol' , 'There is no safe level for drinking alcohol. Consuming alcohol can lead to health problems such as mental and behavioural disorders, including alcohol dependence, major NCDs such as liver cirrhosis, some cancers and heart diseases, as well as injuries resulting from violence and road clashes and collisions.', '21 Mar', 'Pediatrician', '1003');
+
+INSERT INTO blogs (Name, Heading, Content, Date, Dept, ID)
+VALUES ('Dr Laila Dave', 'Don’t smoke' , 'Smoking tobacco causes NCDs such as lung disease, heart disease and stroke. Tobacco kills not only the direct smokers but even non-smokers through second-hand exposure. Currently, there are around 15.9 million Filipino adults who smoke tobacco but 7 in 10 smokers are interested or plan to quit.', '20 Jan', 'Cardiologist', '1001');
+
+INSERT INTO blogs (Name, Heading, Content, Date, Dept, ID)
+VALUES ('Dr Rajesh Mistry', 'Check your blood pressure regularly' , 'Hypertension, or high blood pressure, is called a “silent killer”. This is because many people who have hypertension may not be aware of the problem as it may not have any symptoms. If left uncontrolled, hypertension can lead to heart, brain, kidney and other diseases. Have your blood pressure checked regularly by a health worker so you know your numbers. If your blood pressure is high, get the advice of a health worker. This is vital in the prevention and control of hypertension.', '12 Feb', 'Cardiologist', '1002');
+
+INSERT INTO blogs (Name, Heading, Content, Date, Dept, ID)
+VALUES ('Dr. Arun P Mehra', 'Get tested!' , 'Getting yourself tested is an important step in knowing your health status, especially when it comes to HIV, hepatitis B, sexually-transmitted infections (STIs) and tuberculosis (TB). Left untreated, these diseases can lead to serious complications and even death. Knowing your status means you will know how to either continue preventing these diseases or, if you find out that you’re positive, get the care and treatment that you need. Go to a public or private health facility, wherever you are comfortable, to have yourself tested.', '12 Apr', 'Dietitian', '1004');
+
+INSERT INTO blogs (Name, Heading, Content, Date, Dept, ID)
+VALUES ('Dr. Rajan Shah', 'Cover your mouth when coughing or sneezing' , 'Diseases such as influenza, pneumonia and tuberculosis are transmitted through the air. When an infected person coughs or sneezes, infectious agents may be passed on to others through airborne droplets. When you feel a cough or sneeze coming on, make sure you have covered your mouth with a face mask or use a tissue then dispose it carefully. If you do not have a tissue close by when you cough or sneeze, cover your mouth as much as possible with the crook (or the inside) of your elbow.', '25 Apr', 'Cardiologist', '1009');
+
+INSERT INTO blogs (Name, Heading, Content, Date, Dept, ID)
+VALUES ('Dr. Sumeet Pawar', 'Prevent mosquito bites' , 'Mosquitoes are one of the deadliest animals in the world. Diseases like dengue, chikungunya, malaria and lymphatic filariasis are transmitted by mosquitoes and continue to affect Filipinos. You can take simple measures to protect yourself and your loved ones against mosquito-borne diseases.', '21 June', 'Gastroenterologist', '1011');
+
+INSERT INTO blogs (Name, Heading, Content, Date, Dept, ID)
+VALUES ('Dr. Umesh Khanna', 'Drink only safe water' , 'Drinking unsafe water can lead to water-borne diseases such as cholera, diarrhoea, hepatitis A, typhoid and polio. Globally, at least 2 billion people use a drinking water source contaminated with faeces. Check with your water concessionaire and water refilling station to ensure that the water you’re drinking is safe. In a setting where you are unsure of your water source, boil your water for at least one minute. This will destroy harmful organisms in the water. Let it cool naturally before drinking.', '10 Aug', 'Pediatrician', '1016');
+
+INSERT INTO blogs (Name, Heading, Content, Date, Dept, ID)
+VALUES ('Dr. Anant Joshi', 'Clean your hands properly' , 'Hand hygiene is critical not only for health workers but for everyone. Clean hands can prevent the spread of infectious illnesses. You should handwash using soap and water when your hands are visibly soiled or handrub using an alcohol-based product.', '20 Aug', 'Dietitian', '1018');
+
+INSERT INTO blogs (Name, Heading, Content, Date, Dept, ID)
+VALUES ('Dr. Ganesh Bakshi', 'Have regular check-ups' , 'Regular check-ups can help find health problems before they start. Health professionals can help find and diagnose health issues early, when your chances for treatment and cure are better. Go to your nearest health facility to check out the the health services, screenings and treatment that are accessible to you.', '02 Sep', 'Pediatrician', '1020');

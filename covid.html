@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="icon" href="./images//Logo/Title Bar.png" type="image/icon type">
+  <script src="./js/button.js"></script>
+  <script src="https://kit.fontawesome.com/8c86c20e06.js" crossorigin="anonymous"></script>
+  <script src="./js/covid_Form.js"></script>
+  <title>MedBay - Covid</title>
+</head>
+
+<body>
+
+  <!-- ------------------- -->
+
+  <!-- <script src="./js/covid_Form_validate.js"></script> -->
+
+  <div class="covidForm" id="covidForm">
+    <div class="container">
+      <h2>TO BOOK COVID-19 TEST PLEASE SHARE BELOW DETAILS</h2>
+      <button class="close" onclick="closeCovidForm()"><img src="./images/cancel.png" alt=""></button>
+      <form action="./php/covidFormEntry.php" method="POST">
+        <div class="fullName inputBox">
+          <input type="text" name="name" id="name" required>
+          <span>Full Name</span>
+        </div>
+        <div class="email inputBox">
+          <input type="text" name="email" id="email" required>
+          <span>Email</span>
+        </div>
+        <div class="phoneNumber inputBox">
+          <input type="number" name="phoneNumber" id="phoneNumber" required>
+          <span>Phone Number</span>
+        </div>
+        <div class="city inputBox">
+          <select name="city" id="city">
+            <option value="">Select City</option>
+            <option value="Mumbai">Mumbai</option>
+          </select>
+        </div>
+        <div class="remark inputBox">
+          <textarea name="remark" id="remark" required></textarea>
+          <span>Remark</span>
+        </div>
+        <div class="submit inputBox">
+          <input type="submit" value="Book Now" name="submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ------------------- -->
+
+  <header>
+    <div class="top-head">
+      <div class="logo">
+        <img src="./images/Logo/F_Logo3.png" alt="" />
+      </div>
+      <div class="emergency">
+
+        <p class="rightPara">
+          <img src="./images/emergency-call.png" alt="">
+          <li>
+            <strong> Medical Emergency Number</strong>
+            <ul class="leftEmerg">
+              <li>
+                <a href="tel:102">102</a>
+              </li>
+              <li>
+                <a href="tel:1298">1298</a>
+              </li>
+              <li>
+                <a href="tel:022-24308888">022-24308888</a>
+              </li>
+            </ul>
+          </li>
+        </p>
+
+        <p class="rightPara">
+          <img src="./images/ambulance.png" alt="Ambulance" class="ambulance">
+        <ul>
+          <li>
+            <strong>Ambulance services </strong>
+            <span><a href="tel:108">108</a></span>
+          </li>
+          <li>
+            <strong>Blood Bank</strong>
+            <span><a href="tel:104">104</a>, <a href="tel:1910">1910</a></span>
+          </li>
+          <li>
+            <strong>AIDS Helpline</strong>
+            <span><a href="tel:1097">1097</a></span>
+          </li>
+          <li>
+            <strong>Road Accident Emergency Service</strong>
+            <span><a href="tel:1072">1072</a>, <a href="tel:1073">1073</a></span>
+          </li>
+        </ul>
+        </p>
+
+      </div>
+    </div>
+    <script src="./js/navBar.js"></script>
+    <nav class="navbar" id="navbar">
+      <ul>
+        <li><a href="./index.html">Home <span></span></a></li>
+        <li><a href="./covid.html">Covid <span></span></a></li>
+        <li><a href="./doctors.php">Doctors <span></span></a></li>
+        <li><a href="./hospital.php">Hospital <span></span></a></li>
+        <li><a href="./blogs.php">Blogs <span></span></a></li>
+        <li><a href="./book.html">Book Now <span></span></a></li>
+        <li><img src="./images/Logo/F_Logo2.jpg" alt=""></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ------------------- -->
+
+  <main class="covid" id="covid">
+    <div class="covid_homePage">
+      <img src="./images/covid_home.png" alt="" />
+      <button class="book" onclick="covidForm()">Book Now</button>
+      <!-- <a href="https://cghsmumbai.gov.in/list-bmc-approved-hospitals-covid-19" class="centers" target="_blank">Centers With Covid-19 Testing</a> -->
+    </div>
+
+    <!-- ------------------- -->
+
+    <div class="callTab">
+      <div class="">
+        <h3>Maharashtra</h3>
+        <a class="emergency-no" href="tel:022-22027990"><img src="./images/call_covid.png" />022-22027990</a>
+      </div>
+
+      <div>
+        <h3>Mumbai</h3>
+        <a class="emergency-no" href="tel:022-22664232"><img src="./images/call_covid.png" /> 022-22664232</a>
+      </div>
+
+      <div class="">
+        <h3>MUMBAI SUBURB</h3>
+        <a class="emergency-no" href="tel:022-26556799"><img src="./images/call_covid.png" /> 022-2655679</a>
+      </div>
+    </div>
+
+    <!-- ------------------- -->
+
+    <div class="notice">
+      <p>
+        <strong> Home Sample Collection</strong> can happen ONLY if prescribed
+        by a qualified physician for<strong>
+          COVID-19 test in Mumbai, Pune, Delhi NCR and Chennai</strong>, which is a swab based test. We offer safe and
+        hygienic sample
+        collection at home by our trained technicians. Get accurate and quick
+        reports done at ICMR approved cost in 24-48 hours*. <br />
+        <br /><small>
+          *Timings may vary depending on pick-up and travel restrictions.
+        </small>
+      </p>
+    </div>
+
+    <!-- ------------------- -->
+
+    <div class="c-one">
+      <h2>CORONAVIRUS</h2>
+      <p>Know more about the causes and symptoms of CORONAVIRUS (COVID-19)</p>
+      <article>
+        <h3>What is Coronavirus?</h3>
+        <p>
+          Coronaviruses are a common group of viruses; while some
+          coronaviruses affect only animals, a few others can also affect
+          humans. It is very likely that all of us have been infected by
+          coronavirus at some point in our life. The symptoms of a coronavirus
+          can range from a mild cold to flu like symptoms to moderate and
+          severe upper-respiratory infections. The SARS epidemic (severe acute
+          respiratory syndrome) was also caused by coronavirus. Coronavirus is
+          also known to affect the gut and hence some patients may suffer from
+          diarrhoea.
+        </p>
+        <br />
+        <p>The current situation is caused by COVID 19.</p>
+        <br />
+        <p>
+          Coronavirus infections typically spike up during winter months as
+          the virus can thrive in cold temperatures. So, people typically
+          suffer from cold due to coronavirus in the months that are cold. The
+          immunity is short lived and so we fall prey to cold and flu again.
+        </p>
+
+        <br />
+
+        <h3>How does COVID – 19 spread?</h3>
+        <br />
+        <div class="bullets">
+          <div>
+            <li>Currently COVID – 19 is spreading from people to people</li>
+            <li>
+              The infection spreads through small droplets from the nose or
+              mouth from the infected person when he/ she coughs or exhales
+            </li>
+            <li>
+              One may directly get infected from this or may also get infected
+              when these droplets land on surfaces and objects.
+            </li>
+          </div>
+
+          <div>
+            <li>
+              When you touch infected surfaces and objects, the infection is
+              spread to you
+            </li>
+            <li>
+              That is why it is important to avoid touching your face – this
+              greatly increases the chance of infection.
+            </li>
+            <li>
+              People can also catch COVID-19 if they breathe in droplets from
+              a person with COVID-19 who coughs out or exhales droplets.
+              Therefore, it is important to stay more than 1 meter (3 feet)
+              away from a person who is sick.
+            </li>
+          </div>
+        </div>
+      </article>
+
+      <div class="book-btn">
+        <a href="#" onclick="covidForm()">Book COVID-19 Test </a>
+      </div>
+
+      <h2 class="sandp">Symptoms & Precautions</h2>
+      <br />
+      <br />
+
+      <article>
+        <h3>Symptoms of Coronavirus / COVID 19 infection</h3>
+        <div class="symptoms">
+          <div>
+            <img src="./images/fever.png" alt="" />
+            <br />
+            <strong>Fever</strong>
+          </div>
+          <div>
+            <img src="./images/sneezing.png" alt="" />
+            <br />
+            <strong>Sneezing & Coughing</strong>
+          </div>
+          <div>
+            <img src="./images/shortness.png" alt="" />
+            <br />
+            <strong>Shortness of Breath</strong>
+          </div>
+          <div>
+            <img src="./images/sore_throat.png" alt="" />
+            <br />
+            <strong>Sore Throat</strong>
+          </div>
+          <div>
+            <img src="./images/headache.png" alt="" />
+            <br />
+            <strong>Headache</strong>
+          </div>
+        </div>
+        <button onclick=" summary_open('open-display-sym') " class="open-btn">
+          Detailed Symptoms
+        </button>
+        <br />
+        <br />
+        <div id="open-display-sym">
+          <br />
+          Below are some basic precautions that each one of us should follow
+          for our good health. Pass it on to your family, friends and loved
+          ones.
+
+          <br />
+          <br />
+          <br />
+
+          <div class="bullets">
+            <div>
+              <li>
+                The current COVID 19 infection has typical flu like symptoms
+              </li>
+              <li>
+                The symptoms may begin 2-10 days after initial infection
+              </li>
+              <li>
+                Sneezing, runny nose, fever, fatigue and cough are all
+                symptoms of COVID 19 infections. In certain patients,
+                diarrhoea was also reported.
+              </li>
+            </div>
+
+            <div>
+              <li>
+                1 out of every 6 people who gets COVID-19 becomes seriously
+                ill and develops difficulty breathing. Older people, and those
+                with underlying medical problems like high blood pressure,
+                heart problems or diabetes, are more likely to develop serious
+                illness.
+              </li>
+              <li>
+                People with fever, cough and difficulty breathing should seek
+                medical attention.
+              </li>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <br />
+      <br />
+
+      <article>
+        <h3>Precautions Against COVID-19 or Coronavirus infection</h3>
+        <div class="symptoms precautions">
+          <div>
+            <img src="./images/no_hand_shaking.png" alt="" />
+            <br />
+            <strong>No Hand Shaking</strong>
+          </div>
+          <div>
+            <img src="./images/avoid_touching_door.png" alt="" />
+            <br />
+            <strong>Avoid Touching Door Knobs</strong>
+          </div>
+          <div>
+            <img src="./images/use_paper_towel.png" alt="" />
+            <br />
+            <strong>Use Paper Towel</strong>
+          </div>
+          <div>
+            <img src="./images/proper_hand_waching.png" alt="" />
+            <br />
+            <strong>Proper Hand-washing</strong>
+          </div>
+          <div>
+            <img src="./images/cover_when_coughing.png" alt="" />
+            <br />
+            <strong>Cover when Coughing/Sneezing</strong>
+          </div>
+          <div>
+            <img src="./images/use_disinfecting_wipes.png" alt="" />
+            <br />
+            <strong>Use Disinfecting Wipes</strong>
+          </div>
+        </div>
+        <button onclick=" summary_open('open-display-prec') " class="open-btn">
+          Detailed Precautions
+        </button>
+        <br />
+        <br />
+        <div id="open-display-prec">
+          <br />
+          Below are some basic precautions that each one of us should follow
+          for our good health. Pass it on to your family, friends and loved
+          ones.
+
+          <br />
+          <br />
+          <br />
+
+          <div class="bullets">
+            <div>
+              <li>If you are sick, make sure you stay at home.</li>
+              <li>
+                Avoid handshakes. Use gestures like waving, saying namaste
+                etc.
+              </li>
+              <li>
+                To touch light switches or elevator buttons, use your knuckle
+                for minimum contact. To lift the gasoline dispenser, use a
+                paper towel, tissue or disposable glove.
+              </li>
+              <li>
+                Avoid grasping the door handles of bathrooms and commercial
+                doors unless necessary. Try to open doors with fists or by
+                using your hips.
+              </li>
+              <li>
+                Try using disinfectant wipes when touching door handles in
+                stores, grocery carts etc.
+              </li>
+              <li>
+                Regularly wash your hands using soap and water or use an
+                alcohol-based sanitizer with over 60% alcohol content when you
+                cannot wash your hands. Make sure you keep your hands clean
+                and dry after washing.
+              </li>
+            </div>
+
+            <div>
+              <li>
+                At the entrance of your home and car , keep a bottle of
+                sanitizer handy.
+              </li>
+              <li>
+                Always cough or sneeze into a disposable tissue and discard it
+                immediately. Cough or sneeze into your elbow if you don’t have
+                tissues but keep in mind that infected viruses contained on
+                the clothing around your elbow can be passed on for upto a
+                week or more.
+              </li>
+              <li>
+                Sanitize and disinfect your mobile phones, light switches and
+                other things you frequently contact or touch.
+              </li>
+              <li>
+                Follow reliable authorities like WHO or the CDC on guidelines
+                about wearing masks. As per CDC, people showing COVID-19
+                symptoms should wear masks to protect others from being
+                infected. The CDC doesn’t recommend people who are well to
+                wear facemasks to protect themselves from COVID-19 or other
+                respiratory diseases.
+              </li>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+
+        <div class="book-btn">
+          <a href="#" onclick="covidForm()">Book COVID-19 Test </a>
+        </div>
+      </article>
+    </div>
+
+    <!-- ------------------- -->
+
+    <div class="faq">
+      <article>
+        <!-- 1 -->
+
+        <button onclick=" faq_open('faq-one',  '50px') " class="open-btn">
+          Can the virus that causes COVID-19 be transmitted through the air?
+        </button>
+
+        <div id="faq-one">
+          <p>
+            COVID-19 is mainly transmitted through contact with respiratory
+            droplets rather than through the air.
+          </p>
+        </div>
+
+        <!-- 2 -->
+
+        <button onclick=" faq_open('faq-two',  '70px') " class="open-btn">
+          How to Diagnose Coronavirus Infection
+        </button>
+
+        <div id="faq-two">
+          <p>
+            In perfectly healthy individuals the coronavirus infection may go
+            away with minor symptoms. Coronavirus can be tested with a nasal
+            swab or a blood test. Currently the testing for Coronavirus is
+            undertaken by select government institutions including the AIIMS
+            and National Institute of Virology, Pune.
+          </p>
+        </div>
+
+        <!-- 3 -->
+
+        <button onclick=" faq_open('faq-three',  '400px') " class="open-btn">
+          Is there anything that I should not do?
+        </button>
+
+        <div id="faq-three">
+          <p>
+            The following measures ARE NOT effective against COVID-2019 and
+            can be harmful:
+            <br />
+            <br />
+
+            <li>Smoking</li>
+            <li>Taking traditional herbal remedies</li>
+            <li>Wearing multiple masks</li>
+            <li>Taking self-medication such as antibiotics</li>
+            <br />
+          <p>
+            In any case, if you have fever, cough and difficulty breathing
+            seek medical care early to reduce the risk of developing a more
+            severe infection and be sure to share your recent travel history
+            with your healthcare provider.
+          </p>
+          </p>
+        </div>
+
+        <!-- 4 -->
+
+        <button onclick=" faq_open('faq-four',  '100px') " class="open-btn">
+          Should I wear a mask to protect myself?
+        </button>
+
+        <div id="faq-four">
+          <p>
+            People with no respiratory symptoms, such as cough, do not need to
+            wear a medical mask. WHO recommends the use of masks for people
+            who have symptoms of COVID-19 and for those caring for individuals
+            who have symptoms, such as cough and fever. The use of masks is
+            crucial for health workers and people who are taking care of
+            someone (at home or in a health care facility). People who are
+            infected with COVID 19 or have flu like symptoms should wear a
+            mask so that they do not spread the infection. Masks help in
+            keeping the droplets in but does not help in keeping the droplets
+            out. That is, if you are healthy and using a mask, you are at more
+            risk to carry an infection than if you are not wearing a mask.
+          </p>
+        </div>
+
+        <!-- 5 -->
+
+        <button onclick=" faq_open('faq-five',  '450px') " class="open-btn">
+          Ensure yours and others’ safety during COVID-19
+        </button>
+
+        <div id="faq-five">
+          <p>
+            Please see the below guidelines and this applies to you if you
+            fall under the following parameters:
+            <br />
+            <br />
+
+            <li>
+              Recently visited a country that has an outbreak of COVID 19
+            </li>
+            <li>
+              If you have come in close contact with a person that has
+              travelled recently
+            </li>
+            <li>
+              If any of your family members have recently travelled to a
+              country that has an outbreak of COVID 19
+            </li>
+            <li>
+              If you have been advised Home Quarantine by the government
+              authorities
+            </li>
+            <li>If you have symptoms that resemble COVID 19</li>
+            <br />
+          <p>
+            For patients who fall under the above parameters, we will serve
+            you at home and ensure that your safety is fully ensured whilst
+            you get all your blood tests and diagnosis done. All your samples
+            will be collected by our phlebotomists who are well equipped with
+            protective equipment. We will follow the guidelines laid down by
+            ICMR and the Ministry of Health. This is an extremely important
+            precaution and we sincerely request all our patients to take these
+            measures. Please call us on this number for any queries: 8422 801
+            801
+          </p>
+
+          </p>
+        </div>
+
+        <!-- 6 -->
+
+        <button onclick=" faq_open('faq-six',  '150px') " class="open-btn">
+          What are the treatments for coronavirus infections?
+        </button>
+
+        <div id="faq-six">
+          <p>
+            There is no vaccine or specific treatment for COVID-19. Medical
+            care can help to relieve the symptoms. Antibiotics do not work
+            against viruses; they only work on bacterial infections. COVID-19
+            is caused by a virus, so antibiotics do not work. Antibiotics
+            should not be used as a means of prevention or treatment of
+            COVID-19. They should only be used as directed by a physician to
+            treat a bacterial infection. If you are not in an area where
+            COVID-19 is spreading, or if you have not travelled from one of
+            those areas or have not been in close contact with someone who has
+            and is feeling unwell, your chances of getting it are currently
+            low. However, it’s understandable that you may feel stressed and
+            anxious about the situation. It’s a good idea to get the facts to
+            help you accurately determine your risks so that you can take
+            reasonable precautions.
+          </p>
+        </div>
+      </article>
+    </div>
+    <div class="book-btn">
+      <a href="#" onclick="covidForm()">Book COVID-19 Test </a>
+    </div>
+
+    <!-- ------------------- -->
+
+    <div class="vrView">
+      <div class="content">
+        <div class="left">
+          <h3>
+            Our Lab - 360° Walkthrough
+          </h3>
+          <iframe
+            src="https://momento360.com/e/u/0d7c7733b4b64c75b9148cb78476f70b?utm_campaign=embed&utm_source=other&heading=59.97&pitch=-11.64&field-of-view=75&size=medium"
+            frameborder="0"></iframe>
+        </div>
+        <div class="right">
+          <br>
+          <br>
+          <br>
+          <h3>
+            Isolation BMC Hospitals
+          </h3>
+          <p>
+          <ul>
+            <li>1) Andheri Sports Complex</li>
+            <li>2) Seven Hills Hospital</li>
+            <li>3) MCMCR</li>
+          </ul>
+          </p>
+          <br>
+          <br>
+          <h3>
+            Isolation Private Hospitals
+          </h3>
+          <p>
+          <ul>
+            <li>1) Bombay Hospital</li>
+            <li>2) Saifee General Hospital</li>
+            <li>3) Saint Elizabeth Hospital</li>
+            <li>4) Reliance Foundation Hospital</li>
+            <li>5) Bhatia Hospital</li>
+            <li>6) Jaslok Hospital</li>
+            <li>7) Wockhardt Hospital</li>
+          </ul>
+          </p>
+          <br>
+          <br>
+          <h3>
+            Quarantine BMC Hospitals
+          </h3>
+          <p>
+          <ul>
+            <li>1) Mumbai Port Trust Hospital</li>
+            <li>2) Bharat Ratna Dr Babasaheb Ambedkar Memorial Hospital</li>
+            <li>3) Jagjivan Ram Hospital</li>
+          </ul>
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="one grido">
+      <h2>Lets talk about</h2>
+      <p>
+        Got an inquiry for our Website or want to add your hospital in our site? <br />
+        Feel free to contact me. I am happy to discuss your needs.
+      </p>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/vrushit-patel/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/vrushit_750/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="two grido">
+      <h2>Links</h2>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./covid.html">Covid</a></li>
+        <li><a href="./doctors.php">Doctors</a></li>
+        <li><a href="./hospital.php">Hospital</a></li>
+        <li><a href="./blogs.php">Blogs</a></li>
+        <li><a href="./book.html">Book Now</a></li>
+      </ul>
+    </div>
+    <div class="three grido">
+      <h2>What We Provide?</h2>
+      <!-- goes to projects link -->
+      <ul class="serviceList">
+        <li>Top Doctors In Mumbai</li>
+        <li>Top Hospitals In Mumbai</li>
+        <li>Doctors Filtered Accordingly</li>
+        <li>Hospitals Filtered Accordingly</li>
+        <li>Covid Information</li>
+        <li>Doctors Can Post Daily Tips</li>
+      </ul>
+    </div>
+    <div class="four grido">
+      <h2>Have a Questions?</h2>
+      <ul>
+        <li class="phone-no">
+          <a href="tel:+917506025868" style="transform: translateY(-8px)">+91 75060 25868</a>
+        </li>
+        <li class="whatsapp">
+          <a href="https://api.whatsapp.com/send?phone=917977720603&text=Hi%20" target="_blank"
+            style="transform: translateY(-6px)">+91 79777 20603</a>
+        </li>
+        <li class="mail">
+          <a href="https://www.linkedin.com/in/vrushit-patel/" style="transform: translateY(-6px)">Vrushit Patel</a>
+        </li>
+      </ul>
+    </div>
+    <section>
+      <p>
+        Copyright ©2020 All rights reserved | This template is made with
+        <i class="fas fa-heart"></i> by
+        <a href="https://www.linkedin.com/in/vrushit-patel/" target="_blank">Vrushit</a>
+      </p>
+    </section>
+  </footer>
+
+  <!-- ------------------- -->
+</body>
+
+</html>

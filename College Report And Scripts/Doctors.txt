@@ -17,23 +17,23 @@ CREATE TABLE Doctors (
 
 
 
-***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
 VALUES ('https://img.techpowerup.org/201027/manoj.jpg', 'MBBS, Diploma in Cardiology, Fellowship in 2D Echocardiography', 'Dr. Manoj Gerela', 'Cardiologist', 'Cardiologist', 19, 'Mulund East, Mumbai;Malad West', 900, 1, 0);
 
 
-***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
 VALUES ('https://img.techpowerup.org/201027/surinder.jpg', 'MBBS, MD - General Medicine, DNB - Cardiology', 'Dr. Surinder Hansra', 'Cardiologist, Interventional Cardiologist', 'Cardiologist', 17, 'Kandivali East, Mumbai', 800, 1, 2071184639);
 
 
-***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
 VALUES ('https://img.techpowerup.org/201027/brijesh.jpg', 'DM - Cardiology', 'Dr. BRIJESH AGRAWAL', 'Cardiologist, Interventional Cardiologist', 'Cardiologist', 6, 'Chembur, Mumbai;Kandivali West, Mumbai', 1000, 1, 02048554730);
 
 
-***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
 VALUES ('https://img.techpowerup.org/201027/ramesh.jpg', 'MBBS, MD - General Medicine, DM - Cardiology', 'Dr. Ramesh Kawar', 'Cardiologist', 'Cardiologist', 20, 'Malad West, Mumbai', 1200, 1, 0);
 
 
-***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
 VALUES ('https://img.techpowerup.org/201027/kamales-kumar.jpg', 'MCh - Cardio Thoracic and Vascular Surgery', 'Dr. Kamales Kumar Saha', 'Cardiac Surgeon, Cardiothoracic and Vascular Surgeon, Thoracic Surgeon', 'Cardiologist', 25, 'Goregaon East, Mumbai', 2300, 1, 0);
 
 
@@ -56,15 +56,15 @@ VALUES ('https://img.techpowerup.org/201028/dr-hasmukh-ravat.jpg', 'MBBS, MD - M
 
 
 
-***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
 VALUES ('https://img.techpowerup.org/201027/dr-suhani.jpg', 'BDS', 'Dr. Suhani Talesara', 'Dentist', 'Dentist', 11, 'Durganager MMRDA, Andheri East, Mumbai;Mahakali Caves Road, Andheri East, Mumbai', 500, 1, 02071173924);
 
 
-***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
 VALUES ('https://img.techpowerup.org/201027/ashitesh.jpg', 'BDS, MDS - Orthodontics and Dentofacial Orthopaedics', 'Dr. Ashitesh Ajit Kumar', 'Orthodontist, Dentist, Dental Surgeon', 'Dentist', 8, 'Chembur East, Mumbai', 500, 0, 2071178198);
 
 
-***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
 VALUES ('https://img.techpowerup.org/201027/priyanka126.jpg', 'BDS, MDS - Prosthodontics', 'Dr. Priyanka Deshpande', 'Prosthodontist, Dentist, Dental Surgeon
 ', 'Dentist', 16, 'Borivali West, Mumbai', 500, 1, 0);
 
@@ -86,7 +86,7 @@ VALUES ('https://img.techpowerup.org/201028/dr-manish-kachhara.jpg', 'BDS', 'Dr.
 
 
 
-***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
 VALUES ('https://img.techpowerup.org/201027/ashitesh.jpg', 'BDS', 'Dr. Reshma Phulwar', 'Dentist, Cosmetic/Aesthetic Dentist, Dental Surgeon
 ', 'Dentist', 23, 'Chembur East, Mumbai', 600, 1, 0);
 
@@ -102,10 +102,10 @@ VALUES ('https://img.techpowerup.org/201027/ashitesh.jpg', 'BDS', 'Dr. Reshma Ph
 
 
 
-***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
 VALUES ('https://img.techpowerup.org/201027/dr-yajuvendra.jpg', 'MBBS, MS - Orthopaedics', 'Dr. Yajuvendra Gawai', 'Orthopedist', 'Orthopedist', 20, 'Santacruz West, Mumbai;Vileparle West, Mumbai;Ghatkopar, Mumbai', 1200, 1, 0);
 
-***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
 VALUES ('https://img.techpowerup.org/201027/dr-hemant-bhandari.jpg', 'MBBS, MS - Orthopaedics', 'Dr. Hemant Bhandari', 'Orthopedist, Joint Replacement Surgeon', 'Orthopedist', 33, 'Bandra West, Mumbai;Marine Lines, Mumbai', 2000, 1, 02071173197);
 
 
@@ -160,7 +160,7 @@ VALUES ('https://img.techpowerup.org/201028/dr-phiroze-patel.jpg', 'MBBS, DOMS, 
 , 'Ophthalmologist', 29, 'Peddar Road, Mumbai', 1500, 1, 0);
 
 
-***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
 VALUES ('https://img.techpowerup.org/201027/manoj.jpg', 'MBBS, DNB - Ophthalmology', 'Dr. Manjushree Bhandari', 'Ophthalmologist/ Eye Surgeon'
 , 'Ophthalmologist', 30, 'Mahim, Mumbai', 1300, 0, 2048553248);
 

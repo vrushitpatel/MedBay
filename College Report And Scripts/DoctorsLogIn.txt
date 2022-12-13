@@ -1,0 +1,26 @@
+CREATE TABLE DoctorsLogin(
+    DocName varchar(400) NOT NULL,
+    ID int PRIMARY KEY NOT NULL,
+    Password varchar(1000) NOT NULL
+);
+
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr. Ashitesh Ajit Kumar', 1003, '1003DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr. Arun P Mehra', 1004, '1004DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr. Suresh H. Advani', 1005, '1005DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr Laila Dave', 1001, '1001DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr Rajesh Mistry', 1002, '1002DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr. Gaurav Mehta', 1006, '1006DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr Nandkishore Kapadia', 1007, '1007DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr. Indira Hinduja.', 1008, '1008DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr. Rajan Shah', 1009, '1009DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr Jamshed Dalal', 1010, '1010DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr. Sumeet Pawar', 1011, '1011DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr. Amit Maydeo', 1012, '1012DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr. Mihir Bapat', 1013, '1013DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr. Vinay Kumaran', 1014, '1014DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr. Ramakanta Panda', 1015, '1015DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr. Umesh Khanna', 1016, '1016DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr.B.R. Ramesh Raor', 1017, '1017DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr. Anant Joshi', 1018, '1018DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr.M.B. Agarwal', 1019, '1019DR');
+INSERT INTO doctorslogin(DocName, ID, Password) VALUES ('Dr. Ganesh Bakshi', 1020, '1020DR');

@@ -1,0 +1,467 @@
+CREATE TABLE Doctors (
+    Image varchar(400) NOT NULL,
+    Deg varchar(255) NOT NULL,
+    Name varchar(255) NOT NULL,
+    Speaciality varchar(255) NOT NULL,
+    Tag varchar(255) NOT NULL,
+    Exp int NOT NULL,
+    Places varchar(400) NOT NULL,
+    Fees int NOT NULL,
+    tele int NOT NULL,
+    Contact BIGINT NOT NULL
+);
+
+-------------------------------------------------------------------------------------------------------------------------------
+										CARDIOLOGISTS
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201027/manoj.jpg', 'MBBS, Diploma in Cardiology, Fellowship in 2D Echocardiography', 'Dr. Manoj Gerela', 'Cardiologist', 'Cardiologist', 19, 'Mulund East, Mumbai;Malad West', 900, 1, 0);
+
+
+***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201027/surinder.jpg', 'MBBS, MD - General Medicine, DNB - Cardiology', 'Dr. Surinder Hansra', 'Cardiologist, Interventional Cardiologist', 'Cardiologist', 17, 'Kandivali East, Mumbai', 800, 1, 2071184639);
+
+
+***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201027/brijesh.jpg', 'DM - Cardiology', 'Dr. BRIJESH AGRAWAL', 'Cardiologist, Interventional Cardiologist', 'Cardiologist', 6, 'Chembur, Mumbai;Kandivali West, Mumbai', 1000, 1, 02048554730);
+
+
+***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201027/ramesh.jpg', 'MBBS, MD - General Medicine, DM - Cardiology', 'Dr. Ramesh Kawar', 'Cardiologist', 'Cardiologist', 20, 'Malad West, Mumbai', 1200, 1, 0);
+
+
+***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201027/kamales-kumar.jpg', 'MCh - Cardio Thoracic and Vascular Surgery', 'Dr. Kamales Kumar Saha', 'Cardiac Surgeon, Cardiothoracic and Vascular Surgeon, Thoracic Surgeon', 'Cardiologist', 25, 'Goregaon East, Mumbai', 2300, 1, 0);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/swati-garekar.jpg', 'MBBS, Diplomater, American Board of Cardiology', 'Dr. Swati Garekar', 'Cardiologist', 'Cardiologist', 24, 'Mulund West, Mumbai', 1500, 1, 0);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/nihar-mehta.jpg', 'DNB - Cardiology, MD - General Medicine, DNB - General Medicine, MBBS', 'Dr. Nihar Mehta', 'Cardiologist, Interventional Cardiologist', 'Cardiologist', 11, 'Peddar Road, Mumbai;Sion, Mumbai', 1300, 1, 02071173203);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-hasmukh-ravat.jpg', 'MBBS, MD - Medicine, DM - Cardiology', 'Dr. Hasmukh Ravat', 'Interventional Cardiologist, Cardiologist
+', 'Cardiologist', 34, 'Mulund West, Mumbai', 1500, 1, 0);
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+										DENTIST
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201027/dr-suhani.jpg', 'BDS', 'Dr. Suhani Talesara', 'Dentist', 'Dentist', 11, 'Durganager MMRDA, Andheri East, Mumbai;Mahakali Caves Road, Andheri East, Mumbai', 500, 1, 02071173924);
+
+
+***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201027/ashitesh.jpg', 'BDS, MDS - Orthodontics and Dentofacial Orthopaedics', 'Dr. Ashitesh Ajit Kumar', 'Orthodontist, Dentist, Dental Surgeon', 'Dentist', 8, 'Chembur East, Mumbai', 500, 0, 2071178198);
+
+
+***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201027/priyanka126.jpg', 'BDS, MDS - Prosthodontics', 'Dr. Priyanka Deshpande', 'Prosthodontist, Dentist, Dental Surgeon
+', 'Dentist', 16, 'Borivali West, Mumbai', 500, 1, 0);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/parag-m-khatri.jpg', 'MDS - Periodontology and Oral Implantology, BDS', 'Dr. Parag M. Khatri', 'Periodontist, Cosmetic/Aesthetic Dentist, Implantologist
+', 'Dentist', 27, 'Andheri East, Mumbai', 500, 1, 0);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-jyoti-narla.jpg', 'BDS, MDS - Periodontics', 'Dr. Jyoti Narla', 'Periodontist, Dental Surgeon, Implantologist
+', 'Dentist', 20, 'Powai, Mumbai', 500, 1, 0);
+
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-manish-kachhara.jpg', 'BDS', 'Dr. Manish Kachhara', 'Dentist, Implantologist, Cosmetic/Aesthetic Dentist
+', 'Dentist', 17, 'Ghatkopar East, Mumbai', 500, 1, 0);
+
+
+
+***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201027/ashitesh.jpg', 'BDS', 'Dr. Reshma Phulwar', 'Dentist, Cosmetic/Aesthetic Dentist, Dental Surgeon
+', 'Dentist', 23, 'Chembur East, Mumbai', 600, 1, 0);
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+										ORTHOPEDIST
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201027/dr-yajuvendra.jpg', 'MBBS, MS - Orthopaedics', 'Dr. Yajuvendra Gawai', 'Orthopedist', 'Orthopedist', 20, 'Santacruz West, Mumbai;Vileparle West, Mumbai;Ghatkopar, Mumbai', 1200, 1, 0);
+
+***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201027/dr-hemant-bhandari.jpg', 'MBBS, MS - Orthopaedics', 'Dr. Hemant Bhandari', 'Orthopedist, Joint Replacement Surgeon', 'Orthopedist', 33, 'Bandra West, Mumbai;Marine Lines, Mumbai', 2000, 1, 02071173197);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-shantanu-k-kundgir.jpg', 'MBBS, Diploma in Orthopaedics, FCPS - Orthopedic', 'Dr. Shantanu K Kundgir', 'Orthopedist
+', 'Orthopedist', 16, 'Bandra West, Mumbai;Bandra East, Mumbai', 1400, 1, 02071173175);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-shaival-chauhan.jpg', 'MBBS, DNB - Orthopedics/Orthopedic Surgery, Diploma in Orthopaedics', 'Dr. Shaival Chauhan', 'Joint Replacement Surgeon, Orthopedist', 'Orthopedist', 15, 'Ghatkopar West, Mumbai', 1000, 1, 0);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-pranjal-kodkani.jpg', 'MS - Orthopaedics, Diploma in Orthopaedics, MBBS', 'Dr. Pranjal Kodkani', 'Orthopedist
+', 'Orthopedist', 21, 'Bandra West, Mumbai;Dadar West, Mumbai;Marine Lines, Mumbai', 1250, 1, 02071173183);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-ashok-k-singhvi.jpg', 'MBBS, MS - Orthopaedics, M.Ch - Orthopaedics', 'Dr. Ashok K Singhvi', 'Orthopedist
+', 'Orthopedist', 43, 'Vileparle West, Mumbai', 2000, 1, 02071189378);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-vinod-agrawal.jpg', 'MS - Orthopaedics, M.Ch - Orthopaedics, Diploma in Orthopaedics, DNB - Orthopedics/Orthopedic Surgery, MBBS', 'Dr. Vinod Agrawal', 'Orthopedist, Joint Replacement Surgeon, Spine Surgeon', 'Orthopedist', 34, 'Bandra West, Mumbai;Andheri West, Mumbai;Kandivali West, Mumbai', 1800, 0, 02048553859);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-ashit-shah.jpg', 'MBBS, MS - Orthopaedics', 'Dr. Ashit Shah', 'Orthopedist, Joint Replacement Surgeon
+', 'Orthopedist', 30, 'Malad West, Mumbai;Kandivali West, Mumbai', 1000, 1, 02071173265);
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+										OPHTHALMOLOGIST
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-seema-behl.jpg', 'MBBS, MS - Ophthalmology', 'Dr. Seema Behl', 'Ophthalmologist/ Eye Surgeon
+', 'Ophthalmologist', 30, 'Andheri East, Mumbai;Vileparle West, Mumbai', 1000, 1, 02071173233);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-phiroze-patel.jpg', 'MBBS, DOMS, MS - Ophthalmology, FRCS - General Surgery', 'Dr. Phiroze Patel', 'Ophthalmologist/ Eye Surgeon'
+, 'Ophthalmologist', 29, 'Peddar Road, Mumbai', 1500, 1, 0);
+
+
+***INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201027/manoj.jpg', 'MBBS, DNB - Ophthalmology', 'Dr. Manjushree Bhandari', 'Ophthalmologist/ Eye Surgeon'
+, 'Ophthalmologist', 30, 'Mahim, Mumbai', 1300, 0, 2048553248);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-himanshu-mehta280.jpg', 'MBBS, DOMS, MS - Ophthalmology', 'Dr. Himanshu Mehta', 'Ophthalmologist/ Eye Surgeon'
+, 'Ophthalmologist', 28, 'Bandra West, Mumbai;Juhu, Mumbai', 1500, 1, 2071173176);
+
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-sonia-g-nankani.jpg', 'MS - Ophthalmology, MBBS', 'Dr. Sonia G. Nankani', 'Ophthalmologist/ Eye Surgeon'
+, 'Ophthalmologist', 25, 'Sion East, Mumbai', 1000, 1, 02248933689);
+
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-haresh-asnani.jpg', 'MBBS, DOMS, MS - Ophthalmology', 'Dr. Haresh Asnani', 'Ophthalmologist/ Eye Surgeon'
+, 'Ophthalmologist', 27, 'Chembur East, Mumbai', 800, 1, 02071173181);
+
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-leena-doshi.jpg', 'MS - Ophthalmology, DNB - Ophthalmology, MBBS', 'Dr. Leena Doshi', 'Ophthalmologist/ Eye Surgeon'
+, 'Ophthalmologist', 24, 'Andheri West, Mumbai;Andheri East, Mumbai', 800, 1, 02071173172);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-nayan-thakkar.jpg', 'MBBS, DOMS, MS - Ophthalmology, DNB - Ophthalmology, FCPS- Ophthalmology', 'Dr. Nayan Thakkar', 'Ophthalmologist/ Eye Surgeon'
+, 'Ophthalmologist', 27, 'Ghatkopar East, Mumbai', 1000, 0, 02048553987);
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+										PEDIATRICIAN
+-------------------------------------------------------------------------------------------------------------------------------
+ 
+
+
+
+
+
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-sujata-chitnis.jpg', 'MBBS, MD - Pediatrics', 'Dr. Sujata Chitnis', 'Pediatrician'
+, 'Pediatrician', 36, 'Vileparle East, Mumbai', 1000, 0, 02048552218);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-pradeep-p-mathkar.jpg', 'MD - Pediatrics, MBBS', 'Dr. Pradeep P. Mathkar', 'Pediatrician'
+, 'Pediatrician', 36, 'Ghatkopar West, Mumbai', 1000, 1, 02071173185);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-chandra-choksi.jpg', 'MD - Pediatrics, Diploma in Child Health (DCH)', 'Dr. Chandra Choksi', 'Pediatrician'
+, 'Pediatrician', 31, 'Andheri West, Mumbai', 700, 1, 02248977831);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-kiran-vartak.jpg', 'MBBS, Diploma in Child Health (DCH), Diploma in Child Health (DCH), MRCP (UK)', 'Dr. Kiran Vartak', 'Pediatrician'
+, 'Pediatrician', 33, 'Vileparle East, Mumbai;Andheri East, Mumbai', 800, 1, 02071173172);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-tejal-shetty.jpg', 'MBBS, MD - Pediatrics', 'Dr. Tejal Shetty', 'Pediatrician'
+, 'Pediatrician', 25, 'Vileparle West, Mumbai;Santacruz West, Mumbai', 1000, 1, 02071189378);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/vishal-sachade.jpg', 'MBBS, MD - Pediatrics', 'Dr. Vishal Sachade', 'Pediatrician'
+, 'Pediatrician', 18, 'Borivali West, Mumbai;Borivali East, Mumbai', 600, 1, 02248933646);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-pallavi-gupta.jpg', 'MBBS, Diploma in Child Health (DCH)', 'Dr. Pallavi Gupta', 'Pediatrician'
+, 'Pediatrician', 19, 'Malad West, Mumbai;', 600, 1, 02071173197);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-sanjeev-ahuja.jpg', 'MBBS, MD - Pediatrics, Diploma in Child Health (DCH)', 'Dr. Sanjeev Ahuja', 'Pediatrician'
+, 'Pediatrician', 24, 'Powai, Mumbai', 900, 1, 2248905248);
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+										NEUROLOGIST
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/joy-desai.jpg', 'MBBS, MD - General Medicine, DNB - Neurology', 'Dr. Joy Desai', 'Neurologist'
+, 'Neurologist', 26, 'Peddar Road, Mumbai;Tardeo, Mumbai', 2300, 1, 02071173226);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-rima-chaudhari.jpg', 'MBBS, DNB - General Medicine, DM - Neurology', 'Dr. Rima Chaudhari', 'Neurologist'
+, 'Neurologist', 10, 'Mulund West, Mumbai', 1500, 1, 0);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-shirish-hastak.jpg', 'MBBS, DNB - General Medicine, DM - Neurology', 'Dr. Shirish Hastak', 'Neurologist'
+, 'Neurologist', 40, 'Parel, Mumbai', 3000, 1, 0);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-pankaj-ashok-agarwal.jpg', 'MBBS, MD - General Medicine, DNB - General Medicine, DM - Neurology', 'Dr. Pankaj Ashok Agarwal', 'Neurologist'
+, 'Neurologist', 21, 'Parel, Mumbai', 2250, 1, 0);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-manoj-rajani.jpg', 'MBBS, DM - Neurology', 'Dr. Manoj Rajani', 'Neurologist'
+, 'Neurologist', 20, 'Kandivali, Mumbai', 1500, 1, 02071173234);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-pravina-ushakant-shah.jpg', 'MBBS, MD - General Medicine, DM - Neurology', 'Dr. Pravina Ushakant Shah', 'Neurologist'
+, 'Neurologist', 45, 'Mulund West, Mumbai', 1500, 1, 0);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-anu-agarwal.jpg', 'MBBS, MD - General Medicine, DNB - Neurology', 'Dr. Anu Agarwal', 'Neurologist'
+, 'Neurologist', 14, 'Andheri West, Mumbai', 1500, 1, 02071173175);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-vinod-rambal.jpg', 'MCh - Neuro Surgery, MBBS, MS - General Surgery', 'Dr. Vinod Rambal', 'Neurosurgeon, Neurologist'
+, 'Neurologist', 20, 'Powai, Mumbai;Mira Road, Mumbai;Nalasopara West, Thane', 1100, 1, 02048553517);
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+										 GASTROENTEROLOGIST
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-hemant-bhansali.jpg', 'MBBS, MS - General Surgery, FCPS - General Surgery, FICS, Fellowship in Gastroenterology, PhD - Surgery', 'Dr. Hemant Bhansali', 'Gastroenterologist, Laparoscopic Surgeon, General Surgeon', 'Gastroenterologist', 40, 'Vileparle West, Mumbai', 1500, 1, 02071189378);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/aruna-bhave.jpg', 'MBBS, DNB - Gastroenterology', 'Dr. Aruna Pradeep Bhave', 'Gastroenterologist'
+, 'Gastroenterologist', 33, 'Mulund West, Mumbai', 1500, 1, 0);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-vinay-kumar-dhir.jpg', 'MBBS, MD - General Medicine, DNB - Gastroenterology', 'Dr. Vinay Kumar Dhir', 'Gastroenterologist'
+, 'Gastroenterologist', 32, 'Mahim, Mumbai', 2900, 1, 02048553434);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-tariq-patel.jpg', 'MBBS, MD - General Medicine, DNB - Gastroenterology, DM - Gastroenterology', 'Dr. Tariq Patel', 'Gastroenterologist'
+, 'Gastroenterologist', 32, 'Tardeo, Mumbai;Mazgaon, Mumbai', 1000, 1, 02071173226);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-geeta-malkan-billa.jpg', 'MBBS, MD - General Medicine, DM - Gastroenterology, DNB - Gastroenterology', 'Dr. Geeta Malkan Billa', 'Gastroenterologist'
+, 'Gastroenterologist', 23, 'Powai, Mumbai', 1500, 1, 0);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/sunil-shah.jpg', 'MBBS, DM - Gastroenterology, MD - General Medicine', 'Dr. Sunil Shah', 'Gastroenterologist'
+, 'Gastroenterologist', 32, 'Gamdevi, Mumbai;Tardeo, Mumbai', 1500, 0, 02071173184);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-mehul-choksi.jpg', 'MBBS, MD - General Medicine, DM - Gastroenterology', 'Dr. Mehul Choksi', 'Gastroenterologist'
+, 'Gastroenterologist', 19, 'Mahim, Mumbai;Vileparle West, Mumbai;Bandra West, Mumbai', 1500, 1, 02071189378);
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+										PSYCHIATRIST
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-ashit-sheth.jpg', 'MBBS, M.D. (Psychiatry)', 'Dr. Ashit Sheth', 'Psychiatrist'
+, 'Psychiatrist', 45, 'Marine Lines, Mumbai;Vileparle West, Mumbai', 5000, 1, 02071188518);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-hemangee-dhavale.jpg', 'MBBS, M.D. (Psychiatry)', 'Dr. Hemangee Dhavale', 'Psychiatrist'
+, 'Psychiatrist', 44, 'Matunga, Mumbai;Mahim, Mumbai', 1100, 1, 02071173198);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-amit-desai.jpg', 'MBBS, M.D. (Psychiatry)', 'Dr. Amit Desai', 'Psychiatrist'
+, 'Psychiatrist', 41, 'Peddar Road, Mumbai', 500, 1, 04049173495);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-bharat-r-shah.jpg', 'MBBS, M.D. (Psychiatry)', 'Dr. Bharat R. Shah', 'Psychiatrist'
+, 'Psychiatrist', 35, 'Bandra West, Mumbai', 1500, 1, 02071173176);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-madhuri-singh.jpg', 'MBBS, M.D. (Psychiatry)', 'Dr. Madhuri Singh', 'Psychiatrist'
+, 'Psychiatrist', 32, 'Andheri West, Mumbai;Vileparle West, Mumbai', 1500, 1, 02071173175);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-ketan-parmar.jpg', 'MBBS, DPM (Psychiatry), M.D. (Psychiatry)', 'Dr. Ketan Parmar', 'Psychiatrist, Sexologist, Addiction Psychiatrist, Forensic Psychiatrist, Geriatric Psychiatrist, Neuropsychiatrist, Clinical Psychologist', 'Psychiatrist', 31, 'Mira Road, Mumbai;Borivali East, Mumbai', 1100, 1, 02071173199);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-shaunak-ajinkya.jpg', 'MBBS, M.D. (Psychiatry)', 'Dr. Shaunak Ajinkya', 'Psychiatrist'
+, 'Psychiatrist', 22, 'Andheri West, Mumbai', 1500, 1, 02048552994);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-jalpa-bhuta.jpg', 'MBBS, M.D. (Psychiatry), DNB - Psychiatry, Member of the Royal College of Psychiatrists, United Kingdom (MRC Psych), DPM (Psychiatry)', 'Dr. Jalpa Bhuta', 'Psychiatrist', 'Psychiatrist', 21, 'Parel, Mumbai;Santacruz West, Mumbai', 1600, 1, 02071187111);
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+										DIETITIAN
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/ms-geeta-shenoy.jpg', 'BSc - Dietitics / Nutrition, Post Graduation Diploma in Dietetics', 'Ms. Geeta Shenoy', 'Therapist, Dietitian/Nutritionist, Sports Nutritionist', 'Dietitian', 30, 'Chembur East, Mumbai', 1500, 1,  2048552510);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/zubeda-tumbi.jpg', 'Ph.D - Home Science (Food Science and Nutrition)', 'Dr. Zubeda Tumbi', 'Therapist, Dietitian/Nutritionist', 'Dietitian', 25, 'Andheri West, Mumbai', 1000, 1,  2248903738);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/ms-dt-mehar-panjwani.jpg', 'Post Graduate Diploma in Clinical Nutrition & Dietetics', 'Ms. Dt. Mehar Panjwani', 'Therapist, Dietitian/Nutritionist', 'Dietitian', 22, 'Juhu, Mumbai', 2000, 1,  02048552972);
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-nupur-krishnan.jpg', 'PhD - Clinical Nutrition, Post Graduate In Food Science And Nutrition', 'Dr. Nupur Krishnan', 'Therapist, Dietitian/Nutritionist', 'Dietitian', 21, 'Cuffe Parade, Mumbai', 2000, 1,  02071173182);
+
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/dr-hemangi-jhaveri.jpg', 'BHMS, Diploma in Clinical Nutrition, DHMS (Diploma in Homeopathic Medicine and Surgery), Diploma in Acupuncture', 'Dr. Hemangi Jhaveri', 'Dietitian/Nutritionist, Homoeopath', 'Dietitian', 18, 'SV Road, Mumbai', 1000, 1,  02071173225);
+
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/ms-chaitali-shah.jpg', 'B.Sc. - Home Science (Food & Nutrition), Diploma in Naturopathy & Yoga (NDDY)', 'Ms. Chaitali Shah', 'Therapist, Dietitian/Nutritionist', 'Dietitian', 23, 'Borivali West, Mumbai', 600, 1,  08037298996);
+
+
+
+INSERT INTO doctors (Image, Deg, Name, Speaciality, Tag, Exp, Places, Fees, tele, Contact)
+VALUES ('https://img.techpowerup.org/201028/ms-kamna-bhandari.jpg', 'Post Graduation Diploma in Dietetics, B.Sc. - Home Science (Food & Nutrition)', 'Ms. Kamna Bhandari', 'Therapist, Dietitian/Nutritionist, Clinical Nutritionist', 'Dietitian', 20, 'Khar West, Mumbai', 2200, 1,  2248933268);
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+									
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+

@@ -1,0 +1,13 @@
+CREATE TABLE BookAppointment(
+    FirstName varchar(100) NOT NULL,
+    LastName varchar(100) NOT NULL,
+    Email varchar(255) NOT NULL,
+    Gender varchar(10) NOT NULL,
+    DocName varchar(255) NOT NULL,
+    Speaciality varchar(255) NOT NULL,
+    Location varchar(255) NOT NULL,
+    video int NOT NULL,
+    physical int NOT NULL
+);
+
+INSERT INTO BookAppointment (FirstName, LastName, Email, Gender, DocName, Speaciality, Location, video, physical) VALUES ('Raj', 'Shah', 'raj12@gmail.com', 'Male', 'Dr. Hemant Bhandari', 'Orthopedist', 'Bandra West', 1, 0);

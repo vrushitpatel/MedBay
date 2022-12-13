@@ -1,0 +1,385 @@
+CREATE TABLE Hospitals (
+    Image varchar(400) NOT NULL,
+    Dept varchar(255) NOT NULL,
+    Name varchar(255) NOT NULL,
+    Speaciality varchar(255) NOT NULL,
+    Address varchar(255) NOT NULL,
+    Timing varchar(255) NOT NULL,
+    Beds int NOT NULL,
+    Ambulances int NOT NULL,
+    Contanct BIGINT NOT NULL
+);
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
+								CARDIOLOGISTS
+-------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/fortis.jpg', '7 Cardiologists', 'Fortis Hospital', 'Multi-Speciality Hospital', 'Mulund Goregaon Link Road, Industrial Area', '08:00 AM - 10:00 PM', 261, 2, 02071187418);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/l-h-hiranandani-hospital.jpg', '4 Cardiologists', '
+Dr L H Hiranandani Hospital', 'Multi-Speciality Hospital', 'Hiranandani Business Park, Powai, Mumbai', '08:00 AM - 08:00 PM', 244, 3, 02071177582);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/apollo-spectra-hospitals-tardeo-building.jpg', '2 Cardiologists', 'Apollo Spectra Hospitals', 'Multi-Speciality Hospital', 'Tardeo Road,  Mumbai', '08:00 AM - 10:00 PM', 50, 0, 08049475027);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/global.jpg', '2 Cardiologists', '
+Global Hospitals', 'Multi-Speciality Hospital', 'Parel, Mumbai', '07:00 AM - 09:00 PM', 200, 0, 04049174309);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/jaslok.jpg', '11 Cardiologists', 'Jaslok Hospital', 'Multi-Speciality Hospital', 'Peddar Road, Mumbai', '24 x 7', 364, 5, 04049173564);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/wockhart.jpg', '1 Cardiologists', 'Wockhardt Hospitals', 'Multi-Speciality Hospital', 'Mira Road, Mumbai', '24 x 7', 150, 2, 02048556367);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/surana.jpg', '1 Cardiologists', '
+Surana Hospital And Research Center', 'Multi-Speciality Hospital', 'Near Orlem Church
+Malad West, Mumbai', '24 x 7', 120, 3, 02048555420);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/sushrat.jpg', '1 Cardiologists', 'Sushrut Hospital and Research Center', 'Multi-Speciality Hospital', 'Chembur East, Mumbai', '09:00 AM - 05:30 PM', 132, 2, 02048556367);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/nanavati.png', '11 Cardiologists', 'Nanavati Super Speciality Hospital', 'Multi-Speciality Hospital', 'Vileparle West, Mumbai', '24 x 7', 100, 8, 02071179000);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/lilavati.jpg', '6 Cardiologists', '
+Lilavati Hospital and Research Centre', 'Multi-Speciality Hospital', 'Bandra West, Mumbai', '24 x 7', 105, 7, 02071173176);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/kokilaben.jpg', '4 Cardiologists', 'Kokilaben Dhirubhai Ambani Hospital', 'Multi-Speciality Hospital', 'Andheri West, Mumbai', '24 x 7', 132, 8, 02071173175);
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/s-l-raheja.jpg', '7 Cardiologists', 'S L Raheja Fortis Hospital', 'Multi-Speciality Hospital', 'Mahim, Mumbai', '8:00 AM - 10:00 PM', 140, 1, 02071185421);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/breach.jpg', '4 Cardiologists', '
+Breach Candy Hospital', 'Multi-Speciality Hospital', 'Breach Candy, Mumbai', '24 x 7', 65, 2, 02071173180);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/namaha-health-care-mumbai-1471589733-57b6ad6543604.jpg', '3 Cardiologists', '
+Namaha Health Care', 'Multi-Speciality Hospital', 'Kandivali West, Mumbai', '12:00 AM - 11:59 PM', 87, 3, 02071179000);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/children.jpg', '1 Cardiologists', '
+The Childrens Hospital Mumbai', 'Multi-Speciality Hospital', 'Malad West, Mumbai', '24 x 7', 100, 6, 02071189373);
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+									NEUROLOGIST
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/fortis.jpg', '5 Neurologist', 'Fortis Hospital', 'Multi-Speciality Hospital', 'Mulund Goregaon Link Road, Industrial Area', '08:00 AM - 10:00 PM', 261, 2, 02071187418);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/l-h-hiranandani-hospital.jpg', '3 Neurologist', '
+Dr L H Hiranandani Hospital', 'Multi-Speciality Hospital', 'Hiranandani Business Park, Powai, Mumbai', '08:00 AM - 08:00 PM', 244, 3, 02071177582);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/global.jpg', '2 Neurologist', '
+Global Hospitals', 'Multi-Speciality Hospital', 'Parel, Mumbai', '07:00 AM - 09:00 PM', 200, 0, 04049174309);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/jaslok.jpg', '3 Neurologist', 'Jaslok Hospital', 'Multi-Speciality Hospital', 'Peddar Road, Mumbai', '24 x 7', 364, 5, 04049173564);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/wockhart.jpg', '1 Neurologist', 'Wockhardt Hospitals', 'Multi-Speciality Hospital', 'Mira Road, Mumbai', '24 x 7', 150, 2, 02048556367);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/sushrat.jpg', '1 Cardiologists', 'Sushrut Hospital and Research Center', 'Multi-Speciality Hospital', 'Chembur East, Mumbai', '09:00 AM - 05:30 PM', 132, 2, 02048556367);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/nanavati.png', '6 Neurologists', 'Nanavati Super Speciality Hospital', 'Multi-Speciality Hospital', 'Vileparle West, Mumbai', '24 x 7', 100, 8, 02071179000);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/lilavati.jpg', '1 Neurologists', '
+Lilavati Hospital and Research Centre', 'Multi-Speciality Hospital', 'Bandra West, Mumbai', '24 x 7', 105, 7, 02071173176);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/kokilaben.jpg', '1 Neurologists', 'Kokilaben Dhirubhai Ambani Hospital', 'Multi-Speciality Hospital', 'Andheri West, Mumbai', '24 x 7', 132, 8, 02071173175);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/s-l-raheja.jpg', '2 Neurologists', 'S L Raheja Fortis Hospital', 'Multi-Speciality Hospital', 'Mahim, Mumbai', '8:00 AM - 10:00 PM', 140, 1, 02071185421);
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/breach.jpg', '1 Neurologists', '
+Breach Candy Hospital', 'Multi-Speciality Hospital', 'Breach Candy, Mumbai', '24 x 7', 65, 2, 02071173180);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/namaha-health-care-mumbai-1471589733-57b6ad6543604.jpg', '1 Neurologists', '
+Namaha Health Care', 'Multi-Speciality Hospital', 'Kandivali West, Mumbai', '12:00 AM - 11:59 PM', 87, 3, 02071179000);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/thunga.jpg', '1 Neurologist', '
+Thunga Hospital', 'Multi-Speciality Hospital', 'Malad West, Mumbai', '12:00 AM - 11:55 PM', 140, 1, 02071172396);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/hinduja-hospital.jpg', '1 Neurologist', '
+Hinduja Hospital', 'Multi-Speciality Hospital', 'Mahim, Mumbai', '24 x 7', 50, 0, 02067325809);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/sevenhills-hospital798.jpg', '1 Neurologist', '
+SevenHills Hospital', 'Multi-Speciality Hospital', 'Andheri East, Mumbai', '09:00 AM - 05:30 PM', 306, 1, 02248903971);
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+									DENTISTS
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/fortis.jpg', '3 Dentists', 'Fortis Hospital', 'Multi-Speciality Hospital', 'Mulund Goregaon Link Road, Industrial Area', '08:00 AM - 10:00 PM', 261, 2, 02071187418);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/l-h-hiranandani-hospital.jpg', '5 Dentists', '
+Dr L H Hiranandani Hospital', 'Multi-Speciality Hospital', 'Hiranandani Business Park, Powai, Mumbai', '08:00 AM - 08:00 PM', 244, 3, 02071177582);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/jaslok.jpg', '3 Dentists', 'Jaslok Hospital', 'Multi-Speciality Hospital', 'Peddar Road, Mumbai', '24 x 7', 364, 5, 04049173564);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/nanavati.png', '5 Dentists', 'Nanavati Super Speciality Hospital', 'Multi-Speciality Hospital', 'Vileparle West, Mumbai', '24 x 7', 100, 8, 02071179000);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/lilavati.jpg', '2 Dentists', '
+Lilavati Hospital and Research Centre', 'Multi-Speciality Hospital', 'Bandra West, Mumbai', '24 x 7', 105, 7, 02071173176);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/s-l-raheja.jpg', '1 Dentist', 'S L Raheja Fortis Hospital', 'Multi-Speciality Hospital', 'Mahim, Mumbai', '8:00 AM - 10:00 PM', 140, 1, 02071185421);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/breach.jpg', '3 Dentist', '
+Breach Candy Hospital', 'Multi-Speciality Hospital', 'Breach Candy, Mumbai', '24 x 7', 65, 2, 02071173180);
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/children.jpg', '3 Dentist', '
+The Childrens Hospital Mumbai', 'Multi-Speciality Hospital', 'Malad West, Mumbai', '24 x 7', 100, 6, 02071189373);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/sharan-hospital641.jpg', '2 Dentist', '
+Sharan Hospital', 'Multi-Speciality Hospital', 'Ghatkopar West, Mumbai', '09:30 AM - 11:00 PM', 5, 2, 02048553282);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/surya-hospitals.jpg', '1 Dentist', '
+Surya Hospitals', 'Multi-Speciality Hospital', 'Santacruz West, Mumbai', '08:00 AM - 09:00 PM', 70, 3, 02071187111);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/sevenhills-hospital798.jpg', '1 Dentist', '
+SevenHills Hospital', 'Multi-Speciality Hospital', 'Andheri East, Mumbai', '09:00 AM - 05:30 PM
+', 306, 1, 02248903971);
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/hira-mongi-navneet-hospital.jpg', '1 Dentist', '
+Hira Mongi Navneet Hospital', 'Multi-Speciality Hospital', 'Mulund West, Mumbai', '08:00 AM - 11:59 PM
+', 5, 0, 02071173200);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/saifee-hospital.jpg', '5 Dentist', '
+Saifee Hospital', 'Multi-Speciality Hospital', 'Charni Road, Mumbai', ' 24 x 7', 256, 1, 02071173180);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/bhatia-hospital.jpg', '1 Dentist', '
+Bhatia Hospital', 'Multi-Speciality Hospital', 'Tardeo, Mumbai
+', '24 x 7', 209, 2, 02071173226);
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/masina-hospital.jpg', '6 Dentist', '
+Masina Hospital', 'Multi-Speciality Hospital', 'Byculla, Mumbai', '24 x 7', 232, 2, 02071173180);
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+							AYURVEDA
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/surana.jpg', '1 Ayurveda', '
+Surana Hospital And Research Center', 'Multi-Speciality Hospital', 'Near Orlem Church
+Malad West, Mumbai', '24 x 7', 120, 3, 02048555420);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/breach.jpg', '1 Ayurveda', '
+Breach Candy Hospital', 'Multi-Speciality Hospital', 'Breach Candy, Mumbai', '24 x 7', 65, 2, 02071173180);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/ashwini-hospital.jpg', '1 Ayurveda', '
+Ashwini Ayurvedic Hopsital', 'Ayurveda Hospital', 'Borivali West, Mumbai', '09:00 AM - 09:00 PM', 15, 0, 02071187111);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/madhavbaug-clinic.jpg', '1 Ayurveda', '
+Madhavbaug Clinic', 'Multi-Speciality Hospital', 'Mira Rod, Mumbai', '10:00 AM - 07:00 PM', 10, 0, 02071173198);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/aarogyam-ayurvedic-clinic.jpg', '1 Ayurveda', '
+Aarogyam Ayurvedic Clinic', 'Ayurveda Hospital', 'Dadar West, Mumbai', '06:00 PM - 10:00 PM', 1, 0, 08037298999);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/smt-kamladevi-gauri-dutt-mittal.jpg', '1 Ayurveda', '
+SMT. K.G. Mittal Hospital', 'Ayurveda Hospital', 'Charni Road, Mumbai', '09:00 AM - 06:00 PM', 1, 0, 02071173180);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/vinayak-maternity-and-general-hospital.jpg', '1 Ayurveda', '
+Vinayak Maternity And General Hospital', 'Multi-Speciality Hospital', 'Malad West, Mumbai
+', '07:30 AM - 10:30 PM', 8, 0, 02071173196);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/pooja-maternity-nursing-home.jpg', '1 Ayurveda', '
+Pooja Maternity Nursing Home & Ent Center', 'Multi-Speciality Hospital', 'Ghatkopar West, Mumbai', '24 x 7', 15, 0, 02071187883);
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/vivanta-hospital.jpg', '1 Ayurveda', '
+Vivanta Hospital', 'Multi-Speciality Hospital', 'Malad West, Mumbai', '12:00 AM - 11:59 PM', 15, 0, 02248933641);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/dr-jonwals-niramaya-ayush-panchkarm-health-institute-and-research-hospital.jpg', '2 Ayurvedas', '
+Dr. Jonwals Niramay Ayush Panchkarm Health Institute & Research Hospital', 'Multi-Speciality Hospital', 'Kandivali West, Mumbai', '08:30 AM - 07:00 PM', 15, 0, 02048552218);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/dr-nikam-pile-hospital.jpg', '1 Ayurveda', '
+Dr. Nikam Pile Hospital', 'Ayurveda Hospital', 'Prabhadevi, Mumbai', '08:30 AM - 01:30 PM', 3, 0, 02071173224);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/siddhivinayak-hospital.jpg', '1 Ayurveda', '
+Siddhivinayak Hospital', 'Ayurveda Hospital', 'Kandivali East, Mumbai', '24 x 7', 6, 0, 02071173189);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/arya-aushadhi-pharma.jpg', '2 Ayurvedas', '
+Arya Aushadhi Pharma Mumbai Pvt Ltd', 'Multi-Speciality Hospital', 'Borivali, Mumbai', '08:30 AM - 08:30 PM', 0, 0, 02071173178);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/jiva-ayurveda.jpg', '1 Ayurveda', '
+JIVA Ayurveda', 'Ayurveda Hospital', 'Kandivali East, Mumbai', '10:00 AM - 07:00 PM', 5, 0, 02048554718);
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+							EYE
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/fortis.jpg', '4 Eye Doctors', 'Fortis Hospital', 'Multi-Speciality Hospital', 'Mulund Goregaon Link Road, Industrial Area', '08:00 AM - 10:00 PM', 261, 2, 02071187418);
+
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/l-h-hiranandani-hospital.jpg', '2 Eye Doctors', '
+Dr L H Hiranandani Hospital', 'Multi-Speciality Hospital', 'Hiranandani Business Park, Powai, Mumbai', '08:00 AM - 08:00 PM', 244, 3, 02071177582);
+
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/jaslok.jpg', '4 Eye Doctors', 'Jaslok Hospital', 'Multi-Speciality Hospital', 'Peddar Road, Mumbai', '24 x 7', 364, 5, 04049173564);
+
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/ojas-eye-hospital.jpg', '5 Eye Doctors', '
+Ojas Eye Hospital', 'Ophthalmology Hospital', 'Bandra West, Mumbai', '09:00 AM - 06:30 PM', 25, 0, 02071185306);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/apollo-spectra-hospitals.jpg', '2 Eye Doctors', '
+Apollo Spectra Hospitals', 'Multi-Speciality Hospital', 'Tardeo, Mumbai
+', '08:00 AM - 10:00 PM', 50, 1, 08049475027);
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/wockhart.jpg', '3 Eye Doctors', 'Wockhardt Hospitals', 'Multi-Speciality Hospital', 'Mira Road, Mumbai', '24 x 7', 150, 2, 02048556367);
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/arohi-eye-hospital.jpg', '5 Eye Doctors', '
+Arohi Eye Hospital', 'Ophthalmology Hospital', 'Andheri West, Mumbai', '10:00 AM - 08:00 PM', 5, 0, 02071172896);
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/eye-solutions.jpg', '5 Eye Doctors', '
+Eye Solutions - The complete eye hospital', 'Ophthalmology Hospital', 'Tardeo, Mumbai', '10:00 AM - 06:00 PM', 4, 0, 08037298998);
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/tandon-eye-hospital.jpg', '2 Eye Doctors', '
+Tandon Eye Hospital and Lasik Centre', 'Multi-Speciality Hospital', 'Andheri West, Mumbai
+', '11:00 AM - 03:00 PM', 3, 0, 04049174124);
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/sohum-eye-care-center.jpg', '2 Eye Doctors', 'Sohum Eye Care Center', 'Ophthalmology Hospital', 'Borivali West, Mumbai', '24 x 7', 2, 0, 02048552504);
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/bhalanetra-eye-hospital.jpg', '1 Eye Doctors', '
+Bhalanetra Super Speciality Eye Hospital', 'Multi-Speciality Hospital', 'Bhandup West, Mumbai
+', '09:30 AM - 02:30 PM', 5, 0, 08037298997);
+
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201027/criti-care.jpg', '5 Eye Doctors', '
+Criti Care Multi Speciality Hospital & Research Centre', 'Multi-Speciality Hospital', 'Andheri West, Mumbai
+', '24 x 7', 100, 2, 02071173175);
+
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/sevenhills-hospital798.jpg', '3 Eye Doctors', '
+SevenHills Hospital', 'Multi-Speciality Hospital', 'Andheri East, Mumbai', '09:00 AM - 05:30 PM
+', 306, 1, 02248903971);
+
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/hira-mongi-navneet-hospital.jpg', '4 Eye Doctors', '
+Hira Mongi Navneet Hospital', 'Multi-Speciality Hospital', 'Mulund West, Mumbai', '08:00 AM - 11:59 PM
+', 5, 0, 02071173200);
+
+
+INSERT INTO hospitals (Image, Dept, Name, Speaciality, Address, Timing, Beds, Ambulances, Contanct)
+VALUES ('https://img.techpowerup.org/201026/lilavati.jpg', '7 Eye Doctors', '
+Lilavati Hospital and Research Centre', 'Multi-Speciality Hospital', 'Bandra West, Mumbai', '24 x 7', 105, 7, 02071173176);
+
+
+
+
+

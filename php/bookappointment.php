@@ -4,10 +4,10 @@
 
 <?php
 
-$dbhost = "localhost";
-$dbuser = "u772271968_vrushit";
-$dbpass = "Vrushit123";
-$db = "u772271968_medbay";
+$dbhost = "sql307.epizy.com";
+$dbuser = "epiz_33155386";
+$dbpass = "5s0kLWyCNp3";
+$db = "epiz_33155386_Medbay";
 
 $conn = new mysqli($dbhost, $dbuser, $dbpass, $db);
 

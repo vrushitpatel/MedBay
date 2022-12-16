@@ -1,9 +1,9 @@
 <?php
 
-$dbhost = "localhost";
-$dbuser = "u772271968_vrushit";
-$dbpass = "Vrushit123";
-$db = "u772271968_medbay";
+$dbhost = "sql307.epizy.com";
+$dbuser = "epiz_33155386";
+$dbpass = "5s0kLWyCNp3";
+$db = "epiz_33155386_Medbay";
 
 session_start();
 
@@ -251,23 +251,17 @@ $conn = new mysqli($dbhost, $dbuser, $dbpass, $db);
       <h2>Have a Questions?</h2>
       <ul>
         <li class="phone-no">
-          <a href="tel:+917506025868" style="transform: translateY(-8px)">+91 75060 25868</a>
+          <a href="tel:+917506025868" style="transform: translateY(-8px)">+91 9876543210</a>
         </li>
         <li class="whatsapp">
-          <a href="https://api.whatsapp.com/send?phone=917977720603&text=Hi%20" target="_blank" style="transform: translateY(-6px)">+91 79777 20603</a>
+          <a href="https://api.whatsapp.com/send?phone=919876543210&text=Hi%20" target="_blank" style="transform: translateY(-6px)">+91 9876543210</a>
         </li>
         <li class="mail">
           <a href="https://www.linkedin.com/in/vrushit-patel/" style="transform: translateY(-6px)">Vrushit Patel</a>
         </li>
       </ul>
     </div>
-    <section>
-      <p>
-        Copyright ©2020 All rights reserved | This template is made with
-        <i class="fas fa-heart"></i> by
-        <a href="https://www.linkedin.com/in/vrushit-patel/" target="_blank">Vrushit</a>
-      </p>
-    </section>
+
   </footer>
 </body>
 

@@ -28,5 +28,5 @@ Website Development Project for College.
 
 
 [website]: http://medbay.infinityfreeapp.com/
-[youtube]: https://youtu.be/3wBWCxynH5Y
+[youtube]: https://youtu.be/GSx6qz_HhL0
 [blog]: https://vrushitpatel.github.io/project/Medbay
